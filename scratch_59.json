@@ -1,0 +1,51 @@
+
+{
+"aggregations" : {
+"saved_object_type" : {
+"doc_count_error_upper_bound" : 2,
+"sum_other_doc_count" : 382,
+"buckets" : [
+{
+"key" : "lens-ui-telemetry",
+"doc_count" : 4039
+},
+{
+"key" : "siem-detection-engine-rule-status",
+"doc_count" : 3166
+},
+{
+"key" : "application_usage_daily",
+"doc_count" : 1154
+},
+{
+"key" : "ui-metric",
+"doc_count" : 1151
+},
+{
+"key" : "alert",
+"doc_count" : 857
+},
+{
+"key" : "usage-counters",
+"doc_count" : 630
+},
+{
+"key" : "search",
+"doc_count" : 353
+},
+{
+"key" : "siem-detection-engine-rule-actions",
+"doc_count" : 317
+},
+{
+"key" : "visualization",
+"doc_count" : 218
+},
+{
+"key" : "task",
+"doc_count" : 185
+}
+]
+}
+}
+}

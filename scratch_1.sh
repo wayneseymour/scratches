@@ -1,0 +1,11 @@
+search
+index-pattern
+visualization
+dashboard
+lens
+map
+graph-workspace
+query
+tag
+url
+canvas-workpad

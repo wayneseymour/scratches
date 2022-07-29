@@ -1,0 +1,9 @@
+{
+  "index": "gatling-data",
+  "type": "_doc",
+  "cause": {
+    "type": "exception",
+    "reason": "Elasticsearch exception [type=illegal_argument_exception, reason=only write ops with an op_type of create are allowed in data streams]"
+  },
+  "status": 400
+}

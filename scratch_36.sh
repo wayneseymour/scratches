@@ -1,0 +1,1 @@
+'Help us improve the Elastic Stack\nTo learn about how usage data helps us manage and improve our products and services, see our Privacy Statement\n. To stop collection, disable usage data here.\nDismiss'

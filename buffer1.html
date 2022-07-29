@@ -1,0 +1,14 @@
+<canvas></canvas>
+<script>
+  let cx = document.querySelector("canvas").getContext("2d");
+  cx.strokeStyle = 'red'; // set the strokeStyle color to 'navy' (for the stroke() call below)
+  cx.lineWidth = 3.0;      // set the line width to 3 pixels
+  cx.beginPath();          // start a new path
+  cx.moveTo (150,30);      // set (150,30) to be the starting point
+  cx.lineTo (270,120);     // line from (150,30) to (270,120)
+  cx.lineTo (30,120);      // horizontal line from (270,120) to (30,120)
+  cx.lineTo (150,30);      // line back to the starting point (we could have called closePath() instead)
+  cx.stroke();             // actually draw the triangle shape in 'navy' color and 3 pixel wide lines
+
+  // cx.fill();
+</script>

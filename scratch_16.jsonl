@@ -1,0 +1,75 @@
+{
+  "type": "doc",
+  "value": {
+    "id": "BhbXBmkBR346wHgn4PeZ",
+    "index": "auditbeat-8.0.0-2019.02.19-000001",
+    "source": {
+      "@timestamp": "2019-02-19T17:40:03.790Z",
+      "agent": {
+        "ephemeral_id": "0010d67a-14f7-41da-be30-489fea735967",
+        "hostname": "suricata-zeek-sensor-toronto",
+        "id": "a1d7b39c-f898-4dbe-a761-efb61939302d",
+        "type": "auditbeat",
+        "version": "8.0.0"
+      },
+      "cloud": {
+        "instance": {
+          "id": "133555295"
+        },
+        "provider": "digitalocean",
+        "region": "tor1"
+      },
+      "destination": {
+        "ip": "159.89.119.67",
+        "port": 22
+      },
+      "ecs": {
+        "version": "1.0.0-beta2"
+      },
+      "error": {
+        "message": "process has exited (inode=0)"
+      },
+      "event": {
+        "action": "socket_closed",
+        "dataset": "socket",
+        "kind": "event",
+        "module": "system"
+      },
+      "host": {
+        "architecture": "x86_64",
+        "containerized": false,
+        "hostname": "suricata-zeek-sensor-toronto",
+        "id": "8cc95778cce5407c809480e8e32ad76b",
+        "name": "suricata-zeek-sensor-toronto",
+        "os": {
+          "codename": "bionic",
+          "family": "debian",
+          "kernel": "4.15.0-45-generic",
+          "name": "Ubuntu",
+          "platform": "ubuntu",
+          "version": "18.04.2 LTS (Bionic Beaver)"
+        }
+      },
+      "message": "Inbound socket (45.115.45.3:57324 -> 159.89.119.67:22) CLOSED by process  (PID: -1) and user root (UID: 0)",
+      "network": {
+        "direction": "inbound",
+        "type": "ipv4"
+      },
+      "service": {
+        "type": "system"
+      },
+      "socket": {
+        "entity_id": "5e365e1bb8d30d06841ed763871d90017e8a4efca4f7dd6f69baa42b1afb7a63"
+      },
+      "source": {
+        "ip": "45.115.45.3",
+        "port": 57324
+      },
+      "user": {
+        "id": 0,
+        "name": "root"
+      }
+    },
+    "type": "_doc"
+  }
+}

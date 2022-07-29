@@ -1,0 +1,61 @@
+2 passing (38.6s)
+11 pending
+2 failing
+
+1)    GlobalSearch API
+       GlobalSearchBar
+         search suggestions
+           shows a suggestion when searching for a term matching a type:
+
+
+       Error: expected [ 'dashboard 3 (tag-1 and tag-3)',
+   'dashboard 1 (tag-2)',
+   'dashboard 2 (tag-3)',
+   'dashboard 4 (tag-special-chars)' ] to sort of equal [ 'dashboard 1 (tag-2)',
+   'dashboard 2 (tag-3)',
+   'dashboard 3 (tag-1 and tag-3)',
+   'dashboard 4 (tag-special-chars)' ]
+       + expected - actual
+
+        [
+       -  "dashboard 3 (tag-1 and tag-3)"
+          "dashboard 1 (tag-2)"
+          "dashboard 2 (tag-3)"
+       +  "dashboard 3 (tag-1 and tag-3)"
+          "dashboard 4 (tag-special-chars)"
+        ]
+
+       at Assertion.assert (node_modules/@kbn/expect/expect.js:100:11)
+       at Assertion.eql (node_modules/@kbn/expect/expect.js:244:8)
+       at Context.<anonymous> (x-pack/test/plugin_functional/test_suites/global_search/global_search_bar.ts:72:58)
+       at runMicrotasks (<anonymous>)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+       at Object.apply (node_modules/@kbn/test/target_node/functional_test_runner/lib/mocha/wrap_function.js:87:16)
+
+
+2)    GlobalSearch API
+       GlobalSearchBar
+         search suggestions
+           shows a suggestion when searching for a term matching a tag name:
+
+
+       Error: expected [ 'dashboard 3 (tag-1 and tag-3)',
+   'Visualization 1 (tag-1)',
+   'Visualization 3 (tag-1 + tag-3)' ] to sort of equal [ 'Visualization 1 (tag-1)',
+   'Visualization 3 (tag-1 + tag-3)',
+   'dashboard 3 (tag-1 and tag-3)' ]
+       + expected - actual
+
+        [
+       -  "dashboard 3 (tag-1 and tag-3)"
+          "Visualization 1 (tag-1)"
+          "Visualization 3 (tag-1 + tag-3)"
+       +  "dashboard 3 (tag-1 and tag-3)"
+        ]
+
+       at Assertion.assert (node_modules/@kbn/expect/expect.js:100:11)
+       at Assertion.eql (node_modules/@kbn/expect/expect.js:244:8)
+       at Context.<anonymous> (x-pack/test/plugin_functional/test_suites/global_search/global_search_bar.ts:92:58)
+       at runMicrotasks (<anonymous>)
+       at processTicksAndRejections (node:internal/process/task_queues:96:5)
+       at Object.apply (node_modules/@kbn/test/target_node/functional_test_runner/lib/mocha/wrap_function.js:87:16)

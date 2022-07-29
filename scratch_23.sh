@@ -1,0 +1,4 @@
+ugly=(x-pack/test/saved_object_api_integration/common/suites/get.ts x-pack/test/saved_object_api_integration/common/suites/find.ts x-pack/test/saved_object_api_integration/common/suites/bulk_update.ts x-pack/test/saved_object_api_integration/common/suites/bulk_create.ts x-pack/test/saved_object_api_integration/common/suites/export.ts x-pack/test/saved_object_api_integration/common/suites/resolve_import_errors.ts x-pack/test/saved_object_api_integration/common/suites/create.ts x-pack/test/saved_object_api_integration/common/suites/resolve.ts x-pack/test/saved_object_api_integration/common/suites/bulk_get.ts x-pack/test/saved_object_api_integration/common/suites/import.ts x-pack/test/saved_object_api_integration/common/suites/bulk_resolve.ts x-pack/test/saved_object_api_integration/common/suites/update.ts x-pack/test/saved_object_api_integration/common/suites/delete.ts)
+for x in "${ugly[@]}"; do
+  echo "### x: ${x}"
+done
