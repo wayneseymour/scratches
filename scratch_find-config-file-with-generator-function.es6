@@ -6,7 +6,7 @@ const isConfig = x => /.*config\.(ts|js)/.test(x)
 const directoryOf = x => dirname(x);
 
 const testFile = '/Users/tre/main/test/functional/apps/context/classic/_filters.ts';
-let count = 0;
+
 const config = await findConfigFile(testFile)
 console.log(`\n### config: \n\t${config}`);
 
