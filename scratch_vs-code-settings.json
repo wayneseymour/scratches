@@ -1,0 +1,31 @@
+"workbench.colorCustomizations": {
+  "editor.background": "#1b107a3b",
+},
+"editor.tokenColorCustomizations": {
+  "textMateRules": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#e1ff00ee",
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#f200ff"
+      }
+    },
+    {
+      "scope": "storage.modifier",
+      "settings": {
+        "foreground": "#f200ff"
+      }
+    },
+    {
+      "scope": "keyword.control.import",
+      "settings": {
+        "foreground": "#f200ff"
+      }
+    }
+  ]
+},
