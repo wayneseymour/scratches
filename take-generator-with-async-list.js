@@ -1,18 +1,23 @@
-async function* take(n, xs) {
-  var i = 0;
-  for await (var x of xs) {
-    if (n === i++) {
-      return;
-    }
-    yield x;
-  }
-}
+const take3 = take(3);
+const generate10 = numberGenerator(10);
+
 (async () => {
-  for await (var x of take(3, numberGenerator(10))) {
+  for await (const x of take3(generate10)) {
     console.log(`\n### x: \n\t${x}`);
   }
 })();
 
+function take(n) {
+  var i = 0;
+  return async function* takeCollection (xs) {
+    for await (const x of xs) {
+      if (n === i++) {
+        return;
+      }
+      yield x;
+    }
+  }
+}
 async function* numberGenerator(limit) {
   let i = 0;
   while (true) {
