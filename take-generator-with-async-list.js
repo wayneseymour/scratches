@@ -1,8 +1,10 @@
 const take3 = take(3);
+const take5 = take(3);
 const generate10 = numberGenerator(10);
 
 (async () => {
-  for await (const x of take3(generate10)) {
+  // for await (const x of take3(generate10)) {
+  for await (const x of take5(generate10)) {
     console.log(`\n### x: \n\t${x}`);
   }
 })();
