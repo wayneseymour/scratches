@@ -26,3 +26,5 @@ console.log(iterB.next()) // Observe initial state
 console.log(iterB.next(1)) // Add initial state + 1 = { value: 3, done: false }
 console.log(iterB.next(2))
 console.log(iterB.next(3))
+console.log(iterB.next(3))
+console.log(iterB.next(3))
