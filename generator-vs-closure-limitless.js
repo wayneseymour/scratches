@@ -15,8 +15,14 @@ function* addingGeneratorLimitless(a) {
     b = yield a + b
   }
 }
-const add2Iterator = addingGeneratorLimitless(2)// Set initial state to 2
-console.log(add2Iterator.next()) // Observe initial state
-console.log(add2Iterator.next(1)) // Add initial state + 1 = { value: 3, done: false }
-console.log(add2Iterator.next(2))
-console.log(add2Iterator.next(5))
+const iterA = addingGenerator(2)// Set initial state to 2
+console.log(iterA.next()) // Observe initial state
+console.log(iterA.next(1)) // Add initial state + 1 = { value: 3, done: false }
+console.log(iterA.next(2))
+console.log(iterA.next(3))
+
+const iterB = addingGeneratorLimitless(2)// Set initial state to 2
+console.log(iterB.next()) // Observe initial state
+console.log(iterB.next(1)) // Add initial state + 1 = { value: 3, done: false }
+console.log(iterB.next(2))
+console.log(iterB.next(3))
