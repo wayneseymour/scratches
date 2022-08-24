@@ -8,6 +8,20 @@ arrayify_csv() {
 }
 
 declare standardListArr=()
+# One Liner
 while IFS='' read -r line; do standardListArr+=("$line"); done < <(arrayify_csv "$standard_list")
-
 echo "### standardListArr[*]: ${standardListArr[*]}"
+
+readable() {
+  local xs=()
+
+
+  while IFS='' read -r x
+  do
+    xs+=("$x")
+  done < <(arrayify_csv "$standard_list")
+
+
+  echo "### xs[*]: ${xs[*]}"
+}
+readable
