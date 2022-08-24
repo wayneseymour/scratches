@@ -7,9 +7,9 @@ arrayify_csv() {
   echo "$xs" | tr ',' '\n' | uniq | sort
 }
 
-declare -a standardListArr=()
-# One Liner
+declare standardListArr=()
 while IFS='' read -r line; do standardListArr+=("$line"); done < <(arrayify_csv "$standard_list")
+
 echo "### standardListArr[*]: ${standardListArr[*]}"
 
 buildArrayFromCallingAnotherFunction() {
