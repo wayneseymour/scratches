@@ -11,3 +11,11 @@ const fooC = (a: number) => (b: string) => foo(a, b)
 // Option<boolean>
 pipe(O.of(fooC), O.ap(a), O.ap(b))
 
+function bar(a: boolean): object {
+  return ({ a })
+}
+
+const fooOption = pipe(O.of(fooC), O.ap(a), O.ap(b))
+
+// Option<object>
+pipe(O.of(bar), O.ap(fooOption))
