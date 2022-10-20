@@ -4,5 +4,6 @@
     "activityBar.background": "#541633",
     "titleBar.activeBackground": "#751E47",
     "titleBar.activeForeground": "#FEFBFD"
-  }
+  },
+  "favorites.storageFilePath": "~/administrivia/settings/trez-vs-code-settings"
 }

@@ -1,11 +1,12 @@
 {
   "dependencies": {
+    "fp-ts": "^2.12.3",
+    "fp-ts-contrib": "^0.1.29",
     "node-fetch": "^2.6.7"
   },
   "name": "scratches",
   "version": "1.0.0",
   "main": "scratch_32.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

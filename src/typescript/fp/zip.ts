@@ -14,4 +14,4 @@ const names = [
 const filler = ['!', '!!', '!!!']
 
 const zipped = pipe(names, A.zip(filler))
-zipped
+console.log(`\n### zipped: \n${JSON.stringify(zipped, null, 2)}`)
