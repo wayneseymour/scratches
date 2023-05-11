@@ -414,3 +414,7 @@ export class ToolingLog implements SomeDevLog {
     }
   }
 }
+
+const sut = new ToolingLog();
+sut.write('abc');
+ 

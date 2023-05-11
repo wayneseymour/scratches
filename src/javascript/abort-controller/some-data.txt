@@ -1,0 +1,12 @@
+​​​​​Quokka PRO 'Untitled-2.js' (node: v16.11.1, plugins: jsdom-quokka-plugin)​​​​
+AbortController { signal: AbortSignal { aborted: false } }
+  ​​​​​at ​​​​​​​​new AbortController()​​​ ​quokka.js:1:1​
+AbortController { signal: AbortSignal { aborted: false } }
+  ​​​​​at ​​​​​​​​controller​​​ ​quokka.js:2:1​
+undefined ​​​​​at ​​​​​​​​fs.readFile('/Users/trezworkbox/dev/main...​​​ ​quokka.js:4:1​
+undefined ​​​​​at ​​​​​​​​controller.abort()​​​ ​quokka.js:16:1​
+{ [AbortError: The operation was aborted] code: 'ABORT_ERR', name: 'AbortError' }
+  ​​​​​at ​​​​​​​​error​​​ ​quokka.js:5:7​
+true ​​​​​at ​​​​​​​​error.name === 'AbortError'​​​ ​quokka.js:6:9​
+Read file process aborted 
+  ​​​​​at ​​​​​​quokka.js:7:7​
