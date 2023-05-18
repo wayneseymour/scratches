@@ -1,0 +1,687 @@
+{
+  "ftr_configs_0": {
+    "title": "FTR Configs #1",
+    "expectedDurationMin": 35,
+    "names": [
+      "test/functional/apps/visualize/group3/config.ts",
+      "x-pack/test/ftr_apis/security_and_spaces/config.ts",
+      "x-pack/test/functional/apps/apm/config.ts",
+      "x-pack/test/security_functional/saml.config.ts",
+      "x-pack/test/apm_api_integration/rules/config.ts",
+      "x-pack/test/functional_basic/apps/ml/data_visualizer/group2/config.ts",
+      "x-pack/test/timeline/security_and_spaces/config_trial.ts",
+      "x-pack/test/rule_registry/security_and_spaces/config_trial.ts",
+      "x-pack/test/alerting_api_integration/spaces_only/tests/action_task_params/config.ts",
+      "x-pack/test/api_integration/apis/lists/config.ts",
+      "x-pack/test/upgrade_assistant_integration/config.js",
+      "x-pack/test/reporting_functional/reporting_and_timeout.config.ts",
+      "x-pack/test/api_integration/apis/osquery/config.ts",
+      "x-pack/test/functional_embedded/config.ts",
+      "x-pack/performance/journeys/many_fields_discover.ts",
+      "test/server_integration/http/ssl_redirect/config.js",
+      "x-pack/test/api_integration/apis/searchprofiler/config.ts",
+      "x-pack/test/functional/apps/watcher/config.ts",
+      "x-pack/test/rule_registry/spaces_only/config_basic.ts"
+    ]
+  },
+  "ftr_configs_1": {
+    "title": "FTR Configs #2",
+    "expectedDurationMin": 35,
+    "names": [
+      "test/functional/apps/visualize/replaced_vislib_chart_types/config.ts",
+      "x-pack/test/plugin_functional/config.ts",
+      "x-pack/test/security_functional/oidc.config.ts"
+    ]
+  },
+  "ftr_configs_2": {
+    "title": "FTR Configs #3",
+    "expectedDurationMin": 35,
+    "names": [
+      "x-pack/test/functional/apps/ml/data_frame_analytics/config.ts",
+      "test/functional/apps/discover/embeddable/config.ts",
+      "x-pack/test/functional/apps/maps/group3/config.ts",
+      "x-pack/test/api_integration/apis/logs_ui/config.ts"
+    ]
+  },
+  "ftr_configs_3": {
+    "title": "FTR Configs #4",
+    "expectedDurationMin": 35,
+    "names": [
+      "x-pack/test/functional/apps/lens/open_in_lens/tsvb/config.ts",
+      "x-pack/test/reporting_functional/reporting_and_security.config.ts",
+      "x-pack/test/api_integration/apis/metrics_ui/config.ts",
+      "x-pack/test/api_integration/apis/file_upload/config.ts"
+    ]
+  },
+  "ftr_configs_4": {
+    "title": "FTR Configs #5",
+    "expectedDurationMin": 35.1,
+    "names": [
+      "x-pack/test/functional/apps/maps/group1/config.ts",
+      "x-pack/test/observability_functional/with_rac_write.config.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/rule_execution_logic/config.ts",
+      "x-pack/test/licensing_plugin/config.public.ts"
+    ]
+  },
+  "ftr_configs_5": {
+    "title": "FTR Configs #6",
+    "expectedDurationMin": 35.2,
+    "names": [
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group10/config.ts",
+      "test/functional/apps/discover/classic/config.ts",
+      "x-pack/test/functional/apps/upgrade_assistant/config.ts",
+      "x-pack/test/ui_capabilities/security_and_spaces/config.ts"
+    ]
+  },
+  "ftr_configs_6": {
+    "title": "FTR Configs #7",
+    "expectedDurationMin": 35.2,
+    "names": [
+      "test/functional/apps/dashboard/group2/config.ts",
+      "test/server_integration/http/platform/config.ts",
+      "x-pack/test/functional/apps/snapshot_restore/config.ts"
+    ]
+  },
+  "ftr_configs_7": {
+    "title": "FTR Configs #8",
+    "expectedDurationMin": 35.3,
+    "names": [
+      "x-pack/test/alerting_api_integration/security_and_spaces/group2/config_non_dedicated_task_runner.ts",
+      "x-pack/test/api_integration/apis/telemetry/config.ts"
+    ]
+  },
+  "ftr_configs_8": {
+    "title": "FTR Configs #9",
+    "expectedDurationMin": 35.4,
+    "names": [
+      "test/functional/apps/dashboard/group3/config.ts",
+      "x-pack/test/functional/apps/uptime/config.ts",
+      "x-pack/performance/journeys/dashboard_listing_page.ts",
+      "test/functional/firefox/home.config.ts"
+    ]
+  },
+  "ftr_configs_9": {
+    "title": "FTR Configs #10",
+    "expectedDurationMin": 35.4,
+    "names": [
+      "x-pack/test/localization/config.fr_fr.ts",
+      "test/plugin_functional/config.ts",
+      "x-pack/test/functional_basic/apps/transform/start_reset_delete/config.ts",
+      "x-pack/test/api_integration/apis/uptime/config.ts",
+      "test/functional/apps/status_page/config.ts"
+    ]
+  },
+  "ftr_configs_10": {
+    "title": "FTR Configs #11",
+    "expectedDurationMin": 35.4,
+    "names": [
+      "x-pack/test/alerting_api_integration/security_and_spaces/group1/config.ts",
+      "x-pack/test/functional/apps/ml/anomaly_detection_result_views/config.ts",
+      "x-pack/test/functional/apps/transform/start_reset_delete/config.ts",
+      "x-pack/test/api_integration_basic/config.ts",
+      "x-pack/test/security_api_integration/session_invalidate.config.ts"
+    ]
+  },
+  "ftr_configs_11": {
+    "title": "FTR Configs #12",
+    "expectedDurationMin": 35.4,
+    "names": [
+      "x-pack/test/functional/apps/maps/group2/config.ts",
+      "x-pack/test/reporting_functional/reporting_and_deprecated_security.config.ts",
+      "x-pack/test/functional/apps/management/config.ts",
+      "x-pack/test/cases_api_integration/security_and_spaces/config_no_public_base_url.ts"
+    ]
+  },
+  "ftr_configs_12": {
+    "title": "FTR Configs #13",
+    "expectedDurationMin": 35.4,
+    "names": [
+      "x-pack/test/alerting_api_integration/security_and_spaces/group2/config.ts",
+      "x-pack/test/functional/config_security_basic.ts"
+    ]
+  },
+  "ftr_configs_13": {
+    "title": "FTR Configs #14",
+    "expectedDurationMin": 35.5,
+    "names": [
+      "x-pack/test/accessibility/config.ts",
+      "x-pack/test/fleet_api_integration/config.fleet.ts",
+      "x-pack/test/api_integration/apis/monitoring/config.ts",
+      "x-pack/test/security_api_integration/anonymous_es_anonymous.config.ts"
+    ]
+  },
+  "ftr_configs_14": {
+    "title": "FTR Configs #15",
+    "expectedDurationMin": 35.5,
+    "names": [
+      "test/functional/apps/management/config.ts",
+      "x-pack/test/security_api_integration/token.config.ts",
+      "test/functional/apps/saved_objects_management/config.ts",
+      "x-pack/test/api_integration/config_security_basic.ts"
+    ]
+  },
+  "ftr_configs_15": {
+    "title": "FTR Configs #16",
+    "expectedDurationMin": 35.5,
+    "names": [
+      "test/functional/apps/dashboard/group5/config.ts",
+      "x-pack/test/fleet_api_integration/config.package_policy.ts",
+      "test/functional/apps/discover/ccs_compatibility/config.ts",
+      "x-pack/test/cloud_security_posture_functional/config.ts",
+      "test/interactive_setup_functional/enrollment_token.config.ts"
+    ]
+  },
+  "ftr_configs_16": {
+    "title": "FTR Configs #17",
+    "expectedDurationMin": 35.5,
+    "names": [
+      "test/functional/apps/discover/group1/config.ts",
+      "x-pack/test/functional_with_es_ssl/apps/discover_ml_uptime/config.ts",
+      "x-pack/test/security_api_integration/kerberos_anonymous_access.config.ts",
+      "x-pack/test/functional/apps/index_lifecycle_management/config.ts",
+      "x-pack/test/reporting_functional/reporting_without_security.config.ts"
+    ]
+  },
+  "ftr_configs_17": {
+    "title": "FTR Configs #18",
+    "expectedDurationMin": 35.5,
+    "names": [
+      "x-pack/test/localization/config.zh_cn.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group1/config.ts",
+      "x-pack/test/security_api_integration/pki.config.ts",
+      "x-pack/test/api_integration/apis/transform/config.ts",
+      "test/interactive_setup_api_integration/enrollment_flow.config.ts"
+    ]
+  },
+  "ftr_configs_18": {
+    "title": "FTR Configs #19",
+    "expectedDurationMin": 35.6,
+    "names": [
+      "x-pack/test/fleet_api_integration/config.agent.ts",
+      "test/functional/apps/visualize/group1/config.ts",
+      "x-pack/test/security_api_integration/oidc.config.ts",
+      "x-pack/test/functional/apps/index_management/config.ts",
+      "x-pack/test/session_view/basic/config.ts"
+    ]
+  },
+  "ftr_configs_19": {
+    "title": "FTR Configs #20",
+    "expectedDurationMin": 35.6,
+    "names": [
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group8/config.ts",
+      "x-pack/test/security_api_integration/kerberos.config.ts",
+      "x-pack/test/functional/apps/license_management/config.ts",
+      "x-pack/test/api_integration/apis/console/config.ts"
+    ]
+  },
+  "ftr_configs_20": {
+    "title": "FTR Configs #21",
+    "expectedDurationMin": 35.7,
+    "names": [
+      "x-pack/test/localization/config.ja_jp.ts",
+      "x-pack/test/functional/apps/saved_objects_management/config.ts",
+      "test/functional/apps/home/config.ts",
+      "x-pack/test/api_integration/apis/search/config.ts",
+      "x-pack/test/security_api_integration/anonymous.config.ts"
+    ]
+  },
+  "ftr_configs_21": {
+    "title": "FTR Configs #22",
+    "expectedDurationMin": 35.7,
+    "names": [
+      "x-pack/test/functional/apps/dashboard/group1/config.ts",
+      "x-pack/test/alerting_api_integration/spaces_only/tests/alerting/group3/config.ts",
+      "x-pack/test/functional_basic/apps/transform/edit_clone/config.ts",
+      "x-pack/test/functional/apps/transform/feature_controls/config.ts",
+      "x-pack/test/api_integration/apis/aiops/config.ts"
+    ]
+  },
+  "ftr_configs_22": {
+    "title": "FTR Configs #23",
+    "expectedDurationMin": 35.7,
+    "names": [
+      "test/functional/apps/dashboard_elements/config.ts",
+      "x-pack/test/security_api_integration/user_profiles.config.ts"
+    ]
+  },
+  "ftr_configs_23": {
+    "title": "FTR Configs #24",
+    "expectedDurationMin": 35.7,
+    "names": [
+      "x-pack/test/search_sessions_integration/config.ts",
+      "x-pack/test/security_solution_endpoint_api_int/config.ts",
+      "x-pack/test/apm_api_integration/trial/config.ts",
+      "x-pack/test/functional/apps/reporting_management/config.ts",
+      "test/interactive_setup_functional/manual_configuration_without_tls.config.ts"
+    ]
+  },
+  "ftr_configs_24": {
+    "title": "FTR Configs #25",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "x-pack/test/cases_api_integration/security_and_spaces/config_basic.ts",
+      "x-pack/test/functional/apps/transform/edit_clone/config.ts",
+      "x-pack/test/functional/apps/cross_cluster_replication/config.ts",
+      "test/interactive_setup_functional/manual_configuration.config.ts"
+    ]
+  },
+  "ftr_configs_25": {
+    "title": "FTR Configs #26",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "x-pack/test/functional/config.ccs.ts",
+      "x-pack/test/functional/apps/visualize/config.ts",
+      "x-pack/test/security_api_integration/session_lifespan.config.ts",
+      "x-pack/test/functional/apps/remote_clusters/config.ts",
+      "x-pack/test/observability_api_integration/trial/config.ts"
+    ]
+  },
+  "ftr_configs_26": {
+    "title": "FTR Configs #27",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "x-pack/test/functional/apps/lens/group1/config.ts",
+      "x-pack/test/functional/apps/ml/short_tests/config.ts",
+      "x-pack/test/encrypted_saved_objects_api_integration/config.ts",
+      "test/interpreter_functional/config.ts",
+      "x-pack/test/cloud_security_posture_api/config.ts"
+    ]
+  },
+  "ftr_configs_27": {
+    "title": "FTR Configs #28",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "x-pack/test/functional/apps/lens/group4/config.ts",
+      "x-pack/test/functional/apps/ml/permissions/config.ts",
+      "x-pack/test/security_functional/login_selector.config.ts",
+      "x-pack/test/functional/apps/home/config.ts",
+      "test/interactive_setup_functional/manual_configuration_without_security.config.ts"
+    ]
+  },
+  "ftr_configs_28": {
+    "title": "FTR Configs #29",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "test/functional/apps/visualize/group5/config.ts",
+      "x-pack/test/examples/config.ts",
+      "x-pack/test/functional/apps/data_views/config.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group5/config.ts",
+      "x-pack/test/ui_capabilities/spaces_only/config.ts"
+    ]
+  },
+  "ftr_configs_29": {
+    "title": "FTR Configs #30",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "x-pack/test/api_integration/apis/ml/config.ts",
+      "x-pack/test/alerting_api_integration/spaces_only/tests/alerting/group4/config.ts",
+      "x-pack/test/functional/apps/lens/open_in_lens/dashboard/config.ts",
+      "x-pack/test/rule_registry/security_and_spaces/config_basic.ts",
+      "x-pack/test/functional/apps/status_page/config.ts"
+    ]
+  },
+  "ftr_configs_30": {
+    "title": "FTR Configs #31",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "x-pack/test/spaces_api_integration/security_and_spaces/config_trial.ts",
+      "x-pack/test/reporting_api_integration/reporting_and_security.config.ts",
+      "x-pack/test/functional_basic/apps/ml/data_visualizer/group1/config.ts",
+      "x-pack/performance/journeys/promotion_tracking_dashboard.ts",
+      "x-pack/test/api_integration/apis/watcher/config.ts"
+    ]
+  },
+  "ftr_configs_31": {
+    "title": "FTR Configs #32",
+    "expectedDurationMin": 35.8,
+    "names": [
+      "test/functional/apps/dashboard/group1/config.ts",
+      "x-pack/test/functional/apps/aiops/config.ts",
+      "x-pack/test/functional_cloud/config.ts",
+      "x-pack/test/kubernetes_security/basic/config.ts"
+    ]
+  },
+  "ftr_configs_32": {
+    "title": "FTR Configs #33",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/alerting_api_integration/security_and_spaces/group3/config.ts",
+      "x-pack/test/functional/apps/security/config.ts",
+      "x-pack/test/plugin_api_integration/config.ts",
+      "x-pack/performance/journeys/login.ts",
+      "test/functional/apps/bundles/config.ts"
+    ]
+  },
+  "ftr_configs_33": {
+    "title": "FTR Configs #34",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/lens/group2/config.ts",
+      "x-pack/test/fleet_api_integration/config.epm.ts",
+      "x-pack/test/fleet_api_integration/config.agent_policy.ts",
+      "x-pack/test/api_integration/apis/management/config.ts",
+      "test/server_integration/http/platform/config.status.ts"
+    ]
+  },
+  "ftr_configs_34": {
+    "title": "FTR Configs #35",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/lens/open_in_lens/agg_based/config.ts",
+      "x-pack/test/functional_basic/apps/ml/permissions/config.ts",
+      "x-pack/test/fleet_functional/config.ts",
+      "x-pack/test/api_integration/apis/upgrade_assistant/config.ts"
+    ]
+  },
+  "ftr_configs_35": {
+    "title": "FTR Configs #36",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/spaces_api_integration/security_and_spaces/copy_to_space_config_basic.ts",
+      "x-pack/test/saved_object_tagging/api_integration/security_and_spaces/config.ts",
+      "x-pack/test/functional_basic/apps/transform/permissions/config.ts",
+      "x-pack/performance/journeys/ecommerce_dashboard_map_only.ts",
+      "x-pack/test/api_integration/apis/kibana/config.ts"
+    ]
+  },
+  "ftr_configs_36": {
+    "title": "FTR Configs #37",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "test/functional/config.ccs.ts",
+      "x-pack/test/functional_with_es_ssl/apps/cases/group1/config.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group2/config.ts",
+      "x-pack/test/monitoring_api_integration/config.ts",
+      "x-pack/test/security_api_integration/saml_cloud.config.ts"
+    ]
+  },
+  "ftr_configs_37": {
+    "title": "FTR Configs #38",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/lens/group6/config.ts",
+      "x-pack/test/functional_basic/apps/transform/creation/index_pattern/config.ts",
+      "x-pack/test/functional/apps/logstash/config.ts",
+      "x-pack/test/api_integration/apis/maps/config.ts",
+      "x-pack/test/security_api_integration/audit.config.ts"
+    ]
+  },
+  "ftr_configs_38": {
+    "title": "FTR Configs #39",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/lens/group5/config.ts",
+      "test/functional/apps/visualize/group2/config.ts",
+      "test/functional/firefox/discover.config.ts",
+      "test/analytics/config.ts",
+      "x-pack/test/licensing_plugin/config.ts"
+    ]
+  },
+  "ftr_configs_39": {
+    "title": "FTR Configs #40",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/dashboard/group3/config.ts",
+      "x-pack/test/api_integration/apis/synthetics/config.ts",
+      "test/functional/apps/console/config.ts",
+      "x-pack/performance/journeys/data_stress_test_lens.ts",
+      "x-pack/test/saved_objects_field_count/config.ts"
+    ]
+  },
+  "ftr_configs_40": {
+    "title": "FTR Configs #41",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/spaces_api_integration/security_and_spaces/config_basic.ts",
+      "x-pack/test/functional_basic/apps/ml/data_visualizer/group3/config.ts",
+      "x-pack/test/functional/apps/dev_tools/config.ts",
+      "x-pack/test/security_api_integration/login_selector.config.ts",
+      "x-pack/test/api_integration/apis/features/config.ts"
+    ]
+  },
+  "ftr_configs_41": {
+    "title": "FTR Configs #42",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/saved_object_tagging/functional/config.ts",
+      "x-pack/test/functional/apps/transform/creation/index_pattern/config.ts",
+      "x-pack/test/functional/apps/transform/creation/runtime_mappings_saved_search/config.ts",
+      "x-pack/test/saved_object_tagging/api_integration/tagging_api/config.ts",
+      "x-pack/test/alerting_api_integration/basic/config.ts"
+    ]
+  },
+  "ftr_configs_42": {
+    "title": "FTR Configs #43",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/saved_object_api_integration/security_and_spaces/config_trial.ts",
+      "x-pack/test/functional/apps/graph/config.ts",
+      "x-pack/performance/journeys/ecommerce_dashboard_tsvb_gauge_only.ts",
+      "x-pack/test/security_api_integration/oidc_implicit_flow.config.ts"
+    ]
+  },
+  "ftr_configs_43": {
+    "title": "FTR Configs #44",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/saved_object_api_integration/security_and_spaces/config_basic.ts",
+      "x-pack/test/detection_engine_api_integration/basic/config.ts",
+      "x-pack/test/security_api_integration/http_bearer.config.ts",
+      "x-pack/test/functional_execution_context/config.ts"
+    ]
+  },
+  "ftr_configs_44": {
+    "title": "FTR Configs #45",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/lens/group3/config.ts",
+      "x-pack/test/lists_api_integration/security_and_spaces/config.ts",
+      "x-pack/test/functional_basic/apps/transform/creation/runtime_mappings_saved_search/config.ts",
+      "x-pack/performance/journeys/flight_dashboard.ts",
+      "x-pack/test/api_integration/apis/spaces/config.ts"
+    ]
+  },
+  "ftr_configs_45": {
+    "title": "FTR Configs #46",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "test/functional/apps/dashboard/group4/config.ts",
+      "test/functional/apps/discover/group3/config.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group3/config.ts",
+      "x-pack/performance/journeys/ecommerce_dashboard_saved_search_only.ts",
+      "x-pack/test/security_functional/insecure_cluster_warning.config.ts"
+    ]
+  },
+  "ftr_configs_46": {
+    "title": "FTR Configs #47",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/config.firefox.js",
+      "x-pack/test/functional/apps/canvas/config.ts",
+      "test/functional/firefox/console.config.ts",
+      "x-pack/performance/journeys/web_logs_dashboard.ts",
+      "x-pack/test/api_integration/apis/logstash/config.ts"
+    ]
+  },
+  "ftr_configs_47": {
+    "title": "FTR Configs #48",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/cases_api_integration/security_and_spaces/config_trial.ts",
+      "x-pack/test/security_api_integration/session_concurrent_limit.config.ts",
+      "test/interactive_setup_api_integration/manual_configuration_flow.config.ts"
+    ]
+  },
+  "ftr_configs_48": {
+    "title": "FTR Configs #49",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group9/config.ts",
+      "test/api_integration/config.js",
+      "test/examples/config.js",
+      "x-pack/performance/journeys/ecommerce_dashboard.ts",
+      "test/interactive_setup_api_integration/manual_configuration_flow_without_tls.config.ts"
+    ]
+  },
+  "ftr_configs_49": {
+    "title": "FTR Configs #50",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/maps/group4/config.ts",
+      "x-pack/test/functional_with_es_ssl/apps/cases/group2/config.ts",
+      "x-pack/test/api_integration/apis/cases/config.ts",
+      "x-pack/test/functional_basic/apps/transform/feature_controls/config.ts",
+      "x-pack/test/api_integration/apis/es/config.ts"
+    ]
+  },
+  "ftr_configs_50": {
+    "title": "FTR Configs #51",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "test/functional/apps/visualize/group6/config.ts",
+      "x-pack/test/functional/apps/ml/stack_management_jobs/config.ts",
+      "x-pack/test/functional/apps/transform/permissions/config.ts",
+      "x-pack/test/apm_api_integration/cloud/config.ts",
+      "x-pack/test/api_integration/config_security_trial.ts"
+    ]
+  },
+  "ftr_configs_51": {
+    "title": "FTR Configs #52",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/monitoring/config.ts",
+      "test/functional/apps/context/config.ts",
+      "x-pack/test/alerting_api_integration/spaces_only/tests/actions/config.ts",
+      "x-pack/test/functional/apps/ingest_pipelines/config.ts",
+      "x-pack/test/functional_cors/config.ts"
+    ]
+  },
+  "ftr_configs_52": {
+    "title": "FTR Configs #53",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional/apps/ml/data_visualizer/config.ts",
+      "x-pack/test/alerting_api_integration/spaces_only/tests/alerting/group2/config.ts",
+      "x-pack/test/functional/apps/advanced_settings/config.ts",
+      "x-pack/test/security_functional/expired_session.config.ts",
+      "test/node_roles_functional/background_tasks.config.ts"
+    ]
+  },
+  "ftr_configs_53": {
+    "title": "FTR Configs #54",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/functional_with_es_ssl/apps/triggers_actions_ui/config.ts",
+      "x-pack/test/functional/apps/infra/config.ts",
+      "x-pack/test/security_api_integration/session_idle.config.ts",
+      "x-pack/test/rule_registry/spaces_only/config_trial.ts",
+      "test/node_roles_functional/ui.config.ts"
+    ]
+  },
+  "ftr_configs_54": {
+    "title": "FTR Configs #55",
+    "expectedDurationMin": 35.9,
+    "names": [
+      "x-pack/test/spaces_api_integration/security_and_spaces/copy_to_space_config_trial.ts",
+      "x-pack/test/functional/apps/spaces/config.ts",
+      "x-pack/test/functional/apps/api_keys/config.ts",
+      "x-pack/test/reporting_api_integration/reporting_without_security.config.ts",
+      "test/node_roles_functional/all.config.ts"
+    ]
+  },
+  "ftr_configs_55": {
+    "title": "FTR Configs #56",
+    "expectedDurationMin": 36.3,
+    "names": [
+      "test/functional/apps/discover/group2/config.ts",
+      "x-pack/test/apm_api_integration/basic/config.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group6/config.ts",
+      "x-pack/test/functional/apps/grok_debugger/config.ts",
+      "x-pack/test/security_api_integration/http_no_auth_providers.config.ts"
+    ]
+  },
+  "ftr_configs_56": {
+    "title": "FTR Configs #57",
+    "expectedDurationMin": 36.3,
+    "names": [
+      "x-pack/test/security_solution_endpoint/config.ts",
+      "x-pack/test/security_api_integration/saml.config.ts",
+      "test/functional/apps/kibana_overview/config.ts",
+      "test/health_gateway/config.ts",
+      "test/server_integration/http/ssl/config.js"
+    ]
+  },
+  "ftr_configs_57": {
+    "title": "FTR Configs #58",
+    "expectedDurationMin": 36.4,
+    "names": [
+      "test/functional/apps/visualize/group4/config.ts",
+      "test/accessibility/config.ts",
+      "x-pack/test/custom_branding/config.ts",
+      "x-pack/test/banners_functional/config.ts",
+      "test/server_integration/http/ssl_with_p12/config.js"
+    ]
+  },
+  "ftr_configs_58": {
+    "title": "FTR Configs #59",
+    "expectedDurationMin": 36.4,
+    "names": [
+      "x-pack/test/alerting_api_integration/spaces_only/tests/alerting/group1/config.ts",
+      "x-pack/test/functional/apps/ml/anomaly_detection_integrations/config.ts",
+      "x-pack/test/functional/apps/rollup_job/config.ts",
+      "x-pack/performance/journeys/cloud_security_dashboard.ts",
+      "x-pack/test/api_integration/apis/asset_manager/config_when_disabled.ts"
+    ]
+  },
+  "ftr_configs_59": {
+    "title": "FTR Configs #60",
+    "expectedDurationMin": 36.4,
+    "names": [
+      "x-pack/test/functional/apps/discover/config.ts",
+      "test/functional/firefox/dashboard.config.ts",
+      "x-pack/test/cases_api_integration/spaces_only/config.ts",
+      "x-pack/test/security_functional/user_profiles.config.ts",
+      "test/server_integration/http/ssl_with_p12_intermediate/config.js"
+    ]
+  },
+  "ftr_configs_60": {
+    "title": "FTR Configs #61",
+    "expectedDurationMin": 36.4,
+    "names": [
+      "x-pack/test/functional/apps/ml/anomaly_detection_jobs/config.ts",
+      "x-pack/test/spaces_api_integration/spaces_only/config.ts",
+      "x-pack/test/api_integration/apis/security_solution/config.ts",
+      "test/ui_capabilities/newsfeed_err/config.ts",
+      "x-pack/test/api_integration/apis/painless_lab/config.ts"
+    ]
+  },
+  "ftr_configs_61": {
+    "title": "FTR Configs #62",
+    "expectedDurationMin": 36.5,
+    "names": [
+      "x-pack/test/functional/apps/dashboard/group2/config.ts",
+      "x-pack/test/saved_object_api_integration/spaces_only/config.ts",
+      "test/functional/apps/getting_started/config.ts",
+      "x-pack/test/api_integration/apis/security/config.ts",
+      "x-pack/test/api_integration/apis/monitoring_collection/config.ts"
+    ]
+  },
+  "ftr_configs_62": {
+    "title": "FTR Configs #63",
+    "expectedDurationMin": 36.5,
+    "names": [
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group7/config.ts",
+      "x-pack/test/detection_engine_api_integration/security_and_spaces/group4/config.ts",
+      "x-pack/test/api_integration/apis/cloud_security_posture/config.ts",
+      "x-pack/test/usage_collection/config.ts",
+      "x-pack/test/observability_api_integration/basic/config.ts"
+    ]
+  },
+  "ftr_configs_63": {
+    "title": "test/functional/firefox/visualize.config.ts",
+    "expectedDurationMin": 62.9,
+    "names": [
+      "test/functional/firefox/visualize.config.ts"
+    ]
+  }
+}
