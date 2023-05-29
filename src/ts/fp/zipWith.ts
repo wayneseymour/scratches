@@ -10,5 +10,5 @@ const prefix = x => `somePrefix-${x}`
 const postfix = x => `${x}-somePostFix`
 const infix = x => `before-${x}-after`
 
-// A.zipWith([prefix, postfix], names, (f, x) => f(x));
+A.zipWith([prefix, postfix], names, (f, x) => f(x));
 A.zipWith([prefix, postfix, infix], names, (f, x) => f(x));
