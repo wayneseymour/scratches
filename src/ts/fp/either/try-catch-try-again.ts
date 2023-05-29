@@ -23,8 +23,8 @@ const load = (x: string) =>
 const FTR_CONFIGS_MANIFEST_REL = ".buildkite/ftr_configs.yml";
 // const FTR_CONFIGS_MANIFEST_REL = ".buildkite/NOPE/ftr_configs.yml";
 
-const root = "/Users/trezworkbox/dev/main";
-// const root = "/Users/trezworkbox/NOPE/dev/main.worktrees/from-pmuellers-pr";
+// const root = "/Users/trezworkbox/dev/main";
+const root = "/Users/trezworkbox/NOPE/dev/main.worktrees/from-pmuellers-pr";
 
 pipe(
   E.tryCatch(
