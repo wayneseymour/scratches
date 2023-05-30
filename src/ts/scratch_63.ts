@@ -5,7 +5,7 @@ function formatTime (
     fmt: string = 'MMM D, YYYY @ HH:mm:ss.SSS'
 ) {
     return Object.keys(time)
-        .map((x: unknown) => moment(time[x], [fmt]).format())
+        .map((x: any) => moment(time[x], [fmt]).format())
         .reduce(
             (acc, curr, idx) => {
                 if (idx === 0) acc.from = curr;

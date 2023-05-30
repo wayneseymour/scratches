@@ -1,12 +1,16 @@
 {
   "dependencies": {
+    "@types/node": "^20.2.4",
     "chalk": "^5.2.0",
     "exit-hook": "^3.2.0",
     "fp-ts": "^2.15.0",
     "js-yaml": "^4.1.0",
     "jsdom": "^21.1.0",
+    "moment": "^2.29.4",
     "node-fetch": "^3.3.1",
     "rxjs": "^7.5.5",
-    "rxjs-marbles": "^7.0.1"
+    "rxjs-marbles": "^7.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
   }
 }
