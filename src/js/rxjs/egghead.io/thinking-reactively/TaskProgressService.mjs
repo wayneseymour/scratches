@@ -1,5 +1,5 @@
 import { Observable, merge } from 'rxjs'
-import { map, scan, startWith } from 'rxjs/operators';
+import { map, scan, startWith, distinctUntilChanged } from 'rxjs/operators';
 
 const taskStarts = new Observable();
 const taskCompletions = new Observable();
@@ -22,7 +22,8 @@ const currentLoadCount = loadVariations.pipe(
     // became much higher in count than task starts
     const newLoadCount = totalCurrentLoads + changeInLoads;
     return newLoadCount < 0 ? 0 : newLoad
-  })
+  }),
+  distinctUntilChanged()
 )
 
 export default {};
