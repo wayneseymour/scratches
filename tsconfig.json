@@ -2,6 +2,9 @@
 
   "compilerOptions": {
       "lib": ["ES2017", "DOM"],
+      "esModuleInterop": true,
+      "module": "ESNext",
+      "moduleResolution": "nodenext",
   },
   "exclude": ["node_modules"]
 }
