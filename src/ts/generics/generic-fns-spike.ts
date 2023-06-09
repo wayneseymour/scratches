@@ -4,19 +4,21 @@
  meaning that this function can take a generic type to perform its operations:
  */
 function typedFetch<Data>(url: string): Promise<Data> {
-  return new Promise((reject, resolve) => resolve({
-    username: 'some user',
-    email: 'some email'
-  }))
+  return new Promise((reject, resolve) =>
+    resolve({
+      username: "some user",
+      email: "some email",
+    })
+  );
 }
 
-typedFetch<{ username: string; email: string }>('/someapi/endpoint')
-  .then((result) => {
-    console.log(result)/*?*/
-  })
-
+typedFetch<{ username: string; email: string }>("/someapi/endpoint").then(
+  (result) => {
+    console.log(result); /*?*/
+  }
+);
 
 function mergeObjects<ObjA, ObjB>(objA: ObjA, objB: ObjB) {
-  return {...objA, ...objB }
+  return { ...objA, ...objB };
 }
-const result = mergeObjects({ a: 1, b: "b" }, { n:10, c: [1,2,3] })
+mergeObjects({ a: 1, b: "b" }, { n: 10, c: [1, 2, 3] });
