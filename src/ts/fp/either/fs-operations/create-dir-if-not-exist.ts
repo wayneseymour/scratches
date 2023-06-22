@@ -9,13 +9,12 @@ const swallowAlreadyExistsAndPathStructureDoesNotExist = (reason: unknown) =>
 const logsDirectory = (): string =>
   resolve(
     "/Users/trezworkbox/dev/main.worktrees/es-archiver-slow",
-    "test/functional/apps/is_es_archiver_slow/wei"
+    "test/functional/apps/is_es_archiver_slow/tre"
   );
 console.log(`\n### logsDirectory(): \n  ${logsDirectory()}`);
 
 const mkDirAndIgnoreAllErrors: () => Promise<Either<Error, void>> = flow(
   TE.tryCatch(
-    // async () => await fs.mkdir(fullLogDirAndFilePath()),
     async () => await fs.mkdir(logsDirectory()),
     swallowAlreadyExistsAndPathStructureDoesNotExist
   )
