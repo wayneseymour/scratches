@@ -9,6 +9,4 @@ const res = archives.map((x) => {
     metrics: [],
   }
 })
-
-
 console.log(`\n### res: \n${JSON.stringify(res, null, 2)}`)
