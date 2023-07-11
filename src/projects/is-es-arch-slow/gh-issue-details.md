@@ -32,7 +32,7 @@ Metrics are needed for local, ess and serverless.
 </p>
 </details>
 
-#### x-pack/test/functional/es_archives/logstash_functional
+### x-pack/test/functional/es_archives/logstash_functional
 
 #### Field Count
 
@@ -45,7 +45,7 @@ Metrics are needed for local, ess and serverless.
 |                            | Current es-archiver (seconds) | Improvement POC (seconds) |
 | -------------------------- | ----------------------------- | ------------------------- |
 | Local avg / min / max      | 5565 / 5114 / 6579            | Cell                      |
-| ESS avg / min / max        | 52402 / 19533 / 543249        | Cell                      |
+| ESS avg / min / max | 29.4 / 24.1 / 71.9 | Cell |
 | Serverless avg / min / max | 29995 / 24091 / 183402        | Cell                      |
 
 ### test/functional/fixtures/es_archiver/many_fields
@@ -64,7 +64,7 @@ Metrics are needed for local, ess and serverless.
 | ESS avg / min / max        | 3509 / 2526 / 5350            | Cell                      |
 | Serverless avg / min / max | 4379 / 3304 / 20180           | Cell                      |
 
-#### x-pack/test/functional/es_archives/ml/farequote
+### x-pack/test/functional/es_archives/ml/farequote
 
 #### Field Count
 
