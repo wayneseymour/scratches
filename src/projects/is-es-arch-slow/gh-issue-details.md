@@ -40,13 +40,16 @@ Metrics are needed for local, ess and serverless.
 | ESS avg / min / max        | 29.4 / 24.1 / 71.9            | Cell                      |
 | Serverless avg / min / max | 29995 / 24091 / 183402        | Cell                      |
 
-#### Field Count
+#### `logstash_functional` Meta
 
-?
+<details><summary>Archive Info</summary>
+<p>
+Field Count: ?
 
-#### Doc Count
+Doc Count: 4634 + 4757 + 4614 (3 indices) = 14_005
 
-4634 + 4757 + 4614 (3 indices) = 14005
+</p>
+</details>
 
 ### test/functional/fixtures/es_archiver/many_fields
 
@@ -56,13 +59,16 @@ Metrics are needed for local, ess and serverless.
 | ESS avg / min / max        | 4.0 / 3.3 / 12.6              | Cell                      |
 | Serverless avg / min / max | 4379 / 3304 / 20180           | Cell                      |
 
-#### Field Count
+#### `many_fields` Meta
 
-?
+<details><summary>Archive Info</summary>
+<p>
+Field Count: ?
 
-#### Doc Count
+Doc Count: 5_350
 
-5350
+</p>
+</details>
 
 ### x-pack/test/functional/es_archives/ml/farequote
 
@@ -72,95 +78,13 @@ Metrics are needed for local, ess and serverless.
 | ESS avg / min / max        | 76.1 / 47.6 / 612.8           | Cell                      |
 | Serverless avg / min / max | 59139 / 49412 / 358432        | Cell                      |
 
-#### Field Count
+#### `farequote` Meta
 
-6
-
-#### Doc Count
-
-86274
-
-<details><summary>Local Run Details</summary>
+<details><summary>Archive Info</summary>
 <p>
+Field Count: 6
 
-```
-### r:
-{
-  "name": "x-pack/test/functional/es_archives/logstash_functional",
-  "avg": 5565,
-  "min": 5114,
-  "max": 6579
-}
-
-### r:
-{
-  "name": "test/functional/fixtures/es_archiver/many_fields",
-  "avg": 933,
-  "min": 861,
-  "max": 1436
-}
-
-### r:
-{
-  "name": "x-pack/test/functional/es_archives/ml/farequote",
-  "avg": 36275,
-  "min": 8432,
-  "max": 517495
-}
-```
-
-</p>
-</details>
-
-<details><summary>ESS Run Details</summary>
-<p>
-
-```
-λλλ FINAL METRICS @ Jul 11, 2023, 2:16 PM
-
-x-pack/test/functional/es_archives/logstash_functional
-| ESS avg / min / max | 29.4 / 24.1 / 71.9 | Cell |
-
-
-test/functional/fixtures/es_archiver/many_fields
-| ESS avg / min / max | 4.0 / 3.3 / 12.6 | Cell |
-
-
-x-pack/test/functional/es_archives/ml/farequote
-| ESS avg / min / max | 76.1 / 47.6 / 612.8 | Cell |
-```
-
-</p>
-</details>
-
-<details><summary>Serverless Run Details</summary>
-<p>
-
-```
-λλλ Avg, Min, and Max:
-{
-  "name": "x-pack/test/functional/es_archives/logstash_functional",
-  "avg": 29995,
-  "min": 24091,
-  "max": 183402
-}
-
-λλλ Avg, Min, and Max:
-{
-  "name": "test/functional/fixtures/es_archiver/many_fields",
-  "avg": 4379,
-  "min": 3304,
-  "max": 20180
-}
-
-λλλ Avg, Min, and Max:
-{
-  "name": "x-pack/test/functional/es_archives/ml/farequote",
-  "avg": 59139,
-  "min": 49412,
-  "max": 358432
-}
-```
+Doc Count: 86_274
 
 </p>
 </details>
