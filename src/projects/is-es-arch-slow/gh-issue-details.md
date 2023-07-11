@@ -34,6 +34,12 @@ Metrics are needed for local, ess and serverless.
 
 ### x-pack/test/functional/es_archives/logstash_functional
 
+|                            | Current es-archiver (seconds) | Improvement POC (seconds) |
+| -------------------------- | ----------------------------- | ------------------------- |
+| Local avg / min / max      | 5565 / 5114 / 6579            | Cell                      |
+| ESS avg / min / max        | 29.4 / 24.1 / 71.9            | Cell                      |
+| Serverless avg / min / max | 29995 / 24091 / 183402        | Cell                      |
+
 #### Field Count
 
 ?
@@ -42,13 +48,13 @@ Metrics are needed for local, ess and serverless.
 
 4634 + 4757 + 4614 (3 indices) = 14005
 
+### test/functional/fixtures/es_archiver/many_fields
+
 |                            | Current es-archiver (seconds) | Improvement POC (seconds) |
 | -------------------------- | ----------------------------- | ------------------------- |
-| Local avg / min / max      | 5565 / 5114 / 6579            | Cell                      |
-| ESS avg / min / max        | 29.4 / 24.1 / 71.9            | Cell                      |
-| Serverless avg / min / max | 29995 / 24091 / 183402        | Cell                      |
-
-### test/functional/fixtures/es_archiver/many_fields
+| Local avg / min / max      | 933 / 861 / 1436              | Cell                      |
+| ESS avg / min / max        | 4.0 / 3.3 / 12.6              | Cell                      |
+| Serverless avg / min / max | 4379 / 3304 / 20180           | Cell                      |
 
 #### Field Count
 
@@ -58,13 +64,13 @@ Metrics are needed for local, ess and serverless.
 
 5350
 
-|                            | Current es-archiver (seconds) | Improvement POC (seconds) |
-| -------------------------- | ----------------------------- | ------------------------- | --- |
-| Local avg / min / max      | 933 / 861 / 1436              | Cell                      |
-| ESS avg / min / max        | 4.0 / 3.3 / 12.6              | Cell                      |     |
-| Serverless avg / min / max | 4379 / 3304 / 20180           | Cell                      |
-
 ### x-pack/test/functional/es_archives/ml/farequote
+
+|                            | Current es-archiver (seconds) | Improvement POC (seconds) |
+| -------------------------- | ----------------------------- | ------------------------- |
+| Local avg / min / max      | 36275 / 8432 / 517495         | Cell                      |
+| ESS avg / min / max        | 76.1 / 47.6 / 612.8           | Cell                      |
+| Serverless avg / min / max | 59139 / 49412 / 358432        | Cell                      |
 
 #### Field Count
 
@@ -73,12 +79,6 @@ Metrics are needed for local, ess and serverless.
 #### Doc Count
 
 86274
-
-|                            | Current es-archiver (seconds) | Improvement POC (seconds) |
-| -------------------------- | ----------------------------- | ------------------------- |
-| Local avg / min / max      | 36275 / 8432 / 517495         | Cell                      |
-| ESS avg / min / max        | 46161 / 42851 / 59567         | Cell                      |
-| Serverless avg / min / max | 59139 / 49412 / 358432        | Cell                      |
 
 <details><summary>Local Run Details</summary>
 <p>
