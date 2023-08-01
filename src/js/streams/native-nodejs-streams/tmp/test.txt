@@ -1,0 +1,143 @@
+"λλλ Init Logging @ Aug 1, 2023, 10:48 AM"
+λ os.arch -> arm64
+λ os.platform -> darwin
+λ os.totalmem -> 34.4 GB
+λ os.freemem -> 619.4 MB
+λ CPU Count -> 10
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/logstash_functional",
+    "beforeLoadTimeStamp": "10:48:566",
+    "afterLoadTimeStamp": "10:48:084",
+    "diff": {
+      "milliseconds": 3518
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/logstash_functional",
+    "beforeLoadTimeStamp": "10:48:597",
+    "afterLoadTimeStamp": "10:48:119",
+    "diff": {
+      "milliseconds": 2522
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/logstash_functional",
+    "beforeLoadTimeStamp": "10:48:400",
+    "afterLoadTimeStamp": "10:48:759",
+    "diff": {
+      "milliseconds": 3359
+    }
+  }
+}
+{
+  "archive": {
+    "name": "test/functional/fixtures/es_archiver/many_fields",
+    "beforeLoadTimeStamp": "10:48:670",
+    "afterLoadTimeStamp": "10:48:633",
+    "diff": {
+      "milliseconds": 963
+    }
+  }
+}
+{
+  "archive": {
+    "name": "test/functional/fixtures/es_archiver/many_fields",
+    "beforeLoadTimeStamp": "10:48:085",
+    "afterLoadTimeStamp": "10:48:661",
+    "diff": {
+      "milliseconds": 576
+    }
+  }
+}
+{
+  "archive": {
+    "name": "test/functional/fixtures/es_archiver/many_fields",
+    "beforeLoadTimeStamp": "10:48:082",
+    "afterLoadTimeStamp": "10:48:909",
+    "diff": {
+      "milliseconds": 827
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/ml/farequote",
+    "beforeLoadTimeStamp": "10:48:449",
+    "afterLoadTimeStamp": "10:48:459",
+    "diff": {
+      "milliseconds": 1010
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/ml/farequote",
+    "beforeLoadTimeStamp": "10:48:955",
+    "afterLoadTimeStamp": "10:48:746",
+    "diff": {
+      "milliseconds": 791
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/ml/farequote",
+    "beforeLoadTimeStamp": "10:48:156",
+    "afterLoadTimeStamp": "10:48:449",
+    "diff": {
+      "milliseconds": 1293
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/action_task_params",
+    "beforeLoadTimeStamp": "10:49:171",
+    "afterLoadTimeStamp": "10:49:562",
+    "diff": {
+      "milliseconds": 12391
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/action_task_params",
+    "beforeLoadTimeStamp": "10:49:575",
+    "afterLoadTimeStamp": "10:49:501",
+    "diff": {
+      "milliseconds": 15926
+    }
+  }
+}
+{
+  "archive": {
+    "name": "x-pack/test/functional/es_archives/action_task_params",
+    "beforeLoadTimeStamp": "10:49:518",
+    "afterLoadTimeStamp": "10:49:061",
+    "diff": {
+      "milliseconds": 15543
+    }
+  }
+}
+λλλ FINAL METRICS @ Aug 1, 2023, 10:49 AM
+
+x-pack/test/functional/es_archives/logstash_functional
+| LOCAL avg / min / max | 3.1 / 2.5 / 3.5 | Cell |
+
+
+test/functional/fixtures/es_archiver/many_fields
+| LOCAL avg / min / max | 0.8 / 0.6 / 1.0 | Cell |
+
+
+x-pack/test/functional/es_archives/ml/farequote
+| LOCAL avg / min / max | 1.0 / 0.8 / 1.3 | Cell |
+
+
+x-pack/test/functional/es_archives/action_task_params
+| LOCAL avg / min / max | 14.6 / 12.4 / 15.9 | Cell |
+
