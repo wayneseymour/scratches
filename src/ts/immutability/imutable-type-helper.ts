@@ -1,3 +1,5 @@
+import { Transform } from "node:stream";
+
 type Immutable<T> = {
   readonly [K in keyof T]: Immutable<T[K]>;
 };
@@ -23,3 +25,14 @@ const isJames = (person: Person) => {
 
 console.log(isJames(me));
 console.log(me.name);
+
+
+const streamXformations: (a: { gzip: false } | {}) => Transform[] = ({
+  gzip = false,
+} = {}) => {
+  console.log(`\nλjs gzip: \n\t${gzip}`);
+  return [
+    new PassThrough(),
+  ];
+};
+
