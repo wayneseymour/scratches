@@ -1,0 +1,5 @@
+
+λjs data: 
+"{\n  \"type\": \"doc\",\n  \"value\": {\n    \"id\": \"### THE-ONE\",\n    \"index\": \"logstash-2015.09.21\",\n    \"source\": {\n       \"@message\": \"212.113.62.183 - - [2015-09-21T06:09:20.045Z] \\\"GET /uploads/dafydd-williams.jpg HTTP/1.1\\\" 200 3182 \\\"-\\\" \\\"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\\\"\"\n    }\n  }\n}\n\n{\n  \"type\": \"doc\",\n  \"value\": {\n    \"id\": \"### THE-TWO\",\n    \"index\": \"logstash-2015.09.21\",\n    \"source\": {\n       \"@message\": \"212.113.62.183 - - [2015-09-21T06:09:20.045Z] \\\"GET /uploads/dafydd-williams.jpg HTTP/1.1\\\" 200 3182 \\\"-\\\" \\\"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\\\"\"\n    }\n  }\n}\n"
+
+λjs complete!

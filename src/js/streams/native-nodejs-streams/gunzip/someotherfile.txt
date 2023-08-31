@@ -1,0 +1,21 @@
+{
+  "type": "doc",
+  "value": {
+    "id": "### THE-ONE",
+    "index": "logstash-2015.09.21",
+    "source": {
+       "@message": "212.113.62.183 - - [2015-09-21T06:09:20.045Z] \"GET /uploads/dafydd-williams.jpg HTTP/1.1\" 200 3182 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\""
+    }
+  }
+}
+
+{
+  "type": "doc",
+  "value": {
+    "id": "### THE-TWO",
+    "index": "logstash-2015.09.21",
+    "source": {
+       "@message": "212.113.62.183 - - [2015-09-21T06:09:20.045Z] \"GET /uploads/dafydd-williams.jpg HTTP/1.1\" 200 3182 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\""
+    }
+  }
+}
