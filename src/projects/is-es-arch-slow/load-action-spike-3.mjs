@@ -10,7 +10,7 @@ const begin = async (archivePath) => {
   const json$ = (_) => obj$(archivePath).on("node", "!.*", _);
 
   fromEventPattern(json$).subscribe({
-    next: (x) => console.log("\nλjs next, x:", x),
+    next: (x) => console.log(`\nλjs x: \n${JSON.stringify(x, null, 2)}`),
     error: (err) => console.log("error:", err),
     complete: () => console.log("the end"),
   });
