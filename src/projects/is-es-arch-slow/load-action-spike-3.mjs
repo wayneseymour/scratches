@@ -6,8 +6,8 @@ import oboe from "oboe";
 
 const noop = () => {};
 const begin = async (archivePath) => {
-  const obj$ = (x) => oboe(createReadStream(x));
-  const json$ = (_) => obj$.on("node", "!.*", _);
+  const obj$ = (x) => oboe(fs.createReadStream(x));
+  const json$ = (_) => obj$(archivePath).on("node", "!.*", _);
 
   fromEventPattern(json$).subscribe({
     next: (x) => console.log("\nλjs next, x:", x),
