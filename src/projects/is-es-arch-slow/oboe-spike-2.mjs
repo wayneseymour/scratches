@@ -7,7 +7,8 @@ import oboe from "oboe";
 const noop = () => {};
 const begin = async (archivePath) => {
   const obj$ = (x) => oboe(fs.createReadStream(x));
-  const json$ = (_) => obj$(archivePath).on("node", "![*]", _);
+
+  const json$ = (_) => obj$(archivePath).on('done', _)
 
   fromEventPattern(json$).subscribe({
     next: (x) => console.log(`\nλjs x: \n${JSON.stringify(x, null, 2)}`),
@@ -18,5 +19,6 @@ const begin = async (archivePath) => {
 
 const archivePath =
   "/Users/trezworkbox/dev/scratches/src/js/streams/native-nodejs-streams/gunzip/someotherfile.txt";
+  // "/Users/trezworkbox/dev/main.worktrees/can-we-oboe/x-pack/test/functional/es_archives/ml/farequote/data.json";
 
 begin(archivePath);

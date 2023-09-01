@@ -1,21 +1,32 @@
 {
   "type": "doc",
   "value": {
-    "id": "### THE-ONE",
-    "index": "logstash-2015.09.21",
+    "id": "AVjeRKFG2UMJWf0OwTJC",
+    "index": "ft_farequote",
     "source": {
-       "@message": "212.113.62.183 - - [2015-09-21T06:09:20.045Z] \"GET /uploads/dafydd-williams.jpg HTTP/1.1\" 200 3182 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\""
-    }
+      "@timestamp": "2016-02-07T21:28:15.000Z",
+      "@version": "1",
+      "airline": "ACA",
+      "responsetime": 22.2729,
+      "type": "farequote"
+    },
+    "type": "_doc"
   }
 }
 
 {
   "type": "doc",
   "value": {
-    "id": "### THE-TWO",
-    "index": "logstash-2015.09.21",
+    "id": "AVjeRKGA2UMJWf0OwTJD",
+    "index": "ft_farequote",
     "source": {
-       "@message": "212.113.62.183 - - [2015-09-21T06:09:20.045Z] \"GET /uploads/dafydd-williams.jpg HTTP/1.1\" 200 3182 \"-\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0a1) Gecko/20110421 Firefox/6.0a1\""
-    }
+      "@timestamp": "2016-02-07T21:28:21.000Z",
+      "@version": "1",
+      "airline": "JAL",
+      "responsetime": 469.5078,
+      "type": "farequote"
+    },
+    "type": "_doc"
   }
 }
+
