@@ -1,0 +1,32 @@
+{
+  "type": "doc",
+  "value": {
+    "id": "AVjeRKFG2UMJWf0OwTJC",
+    "index": "ft_farequote",
+    "source": {
+      "@timestamp": "2016-02-07T21:28:15.000Z",
+      "@version": "1",
+      "airline": "ACA",
+      "responsetime": 22.2729,
+      "type": "farequote"
+    },
+    "type": "_doc"
+  }
+}
+
+{
+  "type": "doc",
+  "value": {
+    "id": "AVjeRKGA2UMJWf0OwTJD",
+    "index": "ft_farequote",
+    "source": {
+      "@timestamp": "2016-02-07T21:28:21.000Z",
+      "@version": "1",
+      "airline": "JAL",
+      "responsetime": 469.5078,
+      "type": "farequote"
+    },
+    "type": "_doc"
+  }
+}
+
