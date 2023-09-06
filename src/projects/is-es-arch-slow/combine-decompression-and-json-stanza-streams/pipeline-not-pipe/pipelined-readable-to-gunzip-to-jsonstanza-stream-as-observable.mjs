@@ -4,7 +4,6 @@ import { map } from "rxjs/operators";
 import * as fs from "fs";
 import oboe from "oboe";
 import * as zlib from "zlib";
-import { pipeline } from "node:stream";
 
 const archivePath = "myfarequote.txt";
 const compressedArchiveFilePath =
@@ -15,16 +14,7 @@ const toStr = (x) => `${x}`;
 const noop = () => {};
 
 const begin = (pathToCompressedFile) => {
-  const obj$ = (x) =>
-    oboe(
-      pipeline(fs.createReadStream(x), zlib.createGunzip(), (err) => {
-        if (err) {
-          console.error("Pipeline failed.", err);
-        } else {
-          console.log("Pipeline succeeded.");
-        }
-      })
-    );
+  const obj$ = (x) => oboe(fs.createReadStream(x).pipe(zlib.createGunzip()));
   const json$ = (x) =>
     obj$(x).on("done", (...args) => {
       console.log(`\nλjs args: \n${JSON.stringify(args, null, 2)}`);
