@@ -38,6 +38,9 @@ async function main(filePath: string): Promise<void> {
       // ...
       // console.log(`\nλjs e: \n${JSON.stringify(e, null, 2)}`)
       return T.of(undefined);
+    }),
+    TE.chain((x: any) => {
+
     })
   );
 
