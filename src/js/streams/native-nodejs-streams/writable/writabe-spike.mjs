@@ -1,4 +1,4 @@
-const { Writable } = require("stream");
+import { Writable } from 'stream';
 
 const outStream = new Writable({
   write(chunk, encoding, callback) {
