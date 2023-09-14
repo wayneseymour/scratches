@@ -3,16 +3,15 @@ import crypto from 'crypto';
 import { pipeline } from 'node:stream/promises';
 
 
-const fd = fs.createReadStream('./to-be-read.txt');
-const hash = crypto.createHash('sha1');
-hash.setEncoding('hex');
+async function print(readable) {
+  readable.setEncoding("utf8");
+  let data = "";
+  for await (const chunk of readable) {
+    data += chunk;
+  }
+  console.log(data);
+}
 
-// read all file and pipe it (write it) to the hash object
-// const end = pipeline(fd, hash);
-const end = pipeline(fd, (x) => {
-  console.log(`\nλjs x: \n${JSON.stringify(x, null, 2)}`);
-  return x;
-});
-
-
-console.log(`\nλjs end: \n${JSON.stringify(end, null, 2)}`);
+(async function () {
+  await print(fs.createReadStream("to-be-read.txt"));
+})();
